@@ -1,0 +1,417 @@
+//Pendiente: perfeccionar responsive, codigo a continuación:
+  
+// Proporciones
+// 1600 1
+// 1000 0.5
+//700 0.5
+//550 0.5
+//380 0.5
+
+
+/*
+@each $tamano in 1000, 700, 550, 380 {
+        @media (max-width: #{$tamano}px ){
+            
+        //Generales
+
+
+        .modPpal__tit1{
+            font-size: 3rem * 0.5;
+        }
+        
+        .modPpal__tit2{
+            font-size: 2rem * 0.5;
+        }
+
+        .modPpal__tit3{
+            font-size: 1.6rem * 0.5;
+            
+        }
+        
+        .modPpal__tit4{
+            font-size: 1.3rem * 0.5;
+        }
+
+        .modPpal__tit5{
+            font-size: 1.1rem * 0.5;
+        }
+                
+        .modPpal__tit6{
+            font-size: 1rem * 0.5;
+        }
+
+        .modPpal__nav{
+            font-size: 0.5rem * 0.5;
+        }
+
+        .btn{
+            font-size: 0.5rem * 0.5;
+        }
+
+        // Home
+
+        .inline{
+            font-size: 1.7rem * 0.5; 
+        }
+
+        .googMap{
+            width: 600px * 0.5;
+            height: 600px * 0.5;
+        }
+
+        .carousel-caption{
+            font-size: 1.7rem * 0.5; 
+        }
+
+        
+        // Equipo 
+        
+        .flexEquipo{
+            padding-left: 2.6rem * 0.5;
+            padding-right: 2.6rem * 0.5;
+        }
+        
+        .equipo{
+            width: 17rem * 0.5;
+            font-size: 1rem * 0.5;
+        }
+
+        // Proyectos 
+        
+           .modPpal__tit2{
+            margin-bottom: 0.1rem * 0.5;
+            }
+
+            .imgProyectos{
+            width: 10rem * 0.5;
+            height: 10rem * 0.5;
+            }
+        
+            .gridProyectos {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            }
+
+            .articlegridProyectos p{
+                font-size: 1.4rem * 0.5;
+            }
+        
+        //Como trabajamos
+
+        .parrafosNS{
+            font-size: 1.4rem * 0.5;  
+            p{
+            font-size: 1.4rem * 0.5;  
+            }
+        }
+        .parrCM{
+            font-size: 1.4rem * 0.5;  
+        }
+ 
+        //Contacto
+
+        .parraf__Contacto{
+            font-size: 1.4rem * 0.5;  
+        }
+        
+        input{
+            font-size: 1.4rem * 0.5;  
+        }
+
+        .botonEnviarContacto{
+            font-size: 1.4rem * 0.5;
+        }
+
+        .telefono{
+            font-size: 1.4rem * 0.5;
+        }
+        .email{
+            font-size: 1.4rem * 0.5;
+        }
+
+        .contacto div{
+            width:320px * 0.5;
+        }
+    }
+}
+
+*/
+@media (max-width: 1600px ){
+
+    //Proyectos
+    .imgProyectos{
+      width: 20rem;
+      height: 20rem;
+    }
+
+    .gridProyectos {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+  @media (max-width: 1000px) {
+    .modPpal__tit1 {
+      font-size: 2.7rem; }
+    .modPpal__tit2 {
+      font-size: 1.8rem; }
+    .modPpal__tit3 {
+      font-size: 1.44rem; }
+    .modPpal__tit4 {
+      font-size: 1.17rem; }
+    .modPpal__tit5 {
+      font-size: 0.99rem; }
+    .modPpal__tit6 {
+      font-size: 0.9rem; }
+    .modPpal__nav {
+      font-size: 0.81rem; }
+    .btn {
+      font-size: 0.81rem; }
+    .inline {
+      font-size: 1.53rem; }
+    .googMap {
+      width: 540px;
+      height: 540px; }
+    .carousel-caption {
+      font-size: 1.53rem; }
+    .flexEquipo {
+      padding-left: 2.34rem;
+      padding-right: 2.34rem; }
+    .equipo {
+      width: 15.3rem;
+      font-size: 0.9rem; }
+    .modPpal__tit2 {
+      margin-bottom: 0.09rem; }
+    .imgProyectos {
+      width: 9rem;
+      height: 9rem; }
+    .gridProyectos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); }
+    .articlegridProyectos p {
+      font-size: 1.26rem; }
+    .parrafosNS {
+      font-size: 1.26rem; }
+      .parrafosNS p {
+        font-size: 1.26rem; }
+    .parrCM {
+      font-size: 1.26rem; }
+    .parraf__Contacto {
+      font-size: 1rem; }
+    input {
+      font-size: 1rem; }
+    .botonEnviarContacto {
+      font-size: 1rem; }
+    .telefono {
+      font-size: 1rem; }
+    .email {
+      font-size: 1rem; }
+    .contacto div {
+      width: 320px; } }
+  
+  @media (max-width: 700px) {
+    .modPpal__tit1 {
+      font-size: 2.25rem; }
+    .modPpal__tit2 {
+      font-size: 1.5rem; }
+    .modPpal__tit3 {
+      font-size: 1.2rem; }
+    .modPpal__tit4 {
+      font-size: 0.975rem; }
+    .modPpal__tit5 {
+      font-size: 0.825rem; }
+    .modPpal__tit6 {
+      font-size: 0.75rem; }
+    .modPpal__nav {
+      font-size: 0.5625rem; }
+    .btn {
+      font-size: 0.5625rem; }
+    .inline {
+      font-size: 1.275rem; }
+    .googMap {
+      width: 450px;
+      height: 450px; }
+    .carousel-caption {
+      font-size: 1.275rem; }
+    .flexEquipo {
+      padding-left: 1.95rem;
+      padding-right: 1.95rem; }
+    .equipo {
+      width: 12.75rem;
+      font-size: 0.75rem; }
+    .modPpal__tit2 {
+      margin-bottom: 0.075rem; }
+    .imgProyectos {
+      width: 7.5rem;
+      height: 7.5rem; }
+    .gridProyectos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); }
+    .articlegridProyectos p {
+      font-size: 1.05rem; }
+    .parrafosNS {
+      font-size: 1.05rem; }
+      .parrafosNS p {
+        font-size: 1.05rem; }
+    .parrCM {
+      font-size: 1.05rem; }
+    .parraf__Contacto {
+      font-size: 1.05rem; }
+    input {
+      font-size: 1.05rem; }
+    .botonEnviarContacto {
+      font-size: 1.05rem; }
+    .telefono {
+      font-size: 1.05rem; }
+    .email {
+      font-size: 1.05rem; }
+    .contacto div {
+      width: 310px; } 
+    .flexEquipo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    }
+    .equipo{
+    width: 16rem;
+    }
+    
+}
+  
+  @media (max-width: 550px) {
+    .modPpal__tit1 {
+      font-size: 1.8rem; }
+    .modPpal__tit2 {
+      font-size: 1.2rem; }
+    .modPpal__tit3 {
+      font-size: 0.96rem; }
+    .modPpal__tit4 {
+      font-size: 0.78rem; }
+    .modPpal__tit5 {
+      font-size: 0.66rem; }
+    .modPpal__tit6 {
+      font-size: 0.6rem; }
+    .modPpal__nav {
+      font-size: 0.36rem; }
+    .btn {
+      font-size: 0.36rem; }
+    .inline {
+      font-size: 1.02rem; }
+    .googMap {
+      width: 360px;
+      height: 360px; }
+    .carousel-caption {
+      font-size: 1.02rem; }
+    .equipo {
+      width: 11rem;
+      font-size: 0.6rem; }
+    .flexEquipo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+
+    .modPpal__tit2 {
+      margin-bottom: 0.06rem; }
+    .imgProyectos{
+    width: 6rem;
+    height: 6rem;
+    }
+    .gridProyectos {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .articlegridProyectos p {
+      font-size: 0.84rem; }
+    .parrafosNS {
+      font-size: 0.84rem; }
+      .parrafosNS p {
+        font-size: 0.84rem; }
+    .parrCM {
+      font-size: 0.84rem; }
+    .parraf__Contacto {
+      font-size: 0.84rem; }
+    input {
+      font-size: 0.84rem; }
+    .botonEnviarContacto {
+      font-size: 0.84rem; }
+    .telefono {
+      font-size: 0.84rem; }
+    .email {
+      font-size: 0.84rem; }
+    .contacto div {
+      width: 192px; } }
+  
+  @media (max-width: 380px) { 
+    .modPpal__tit1 {
+      font-size: 1.5rem; }
+    .modPpal__tit2 {
+      font-size: 1rem; }
+    .modPpal__tit3 {
+      font-size: 0.8rem; }
+    .modPpal__tit4 {
+      font-size: 0.65rem; }
+    .modPpal__tit5 {
+      font-size: 0.55rem; }
+    .modPpal__tit6 {
+      font-size: 0.5rem; }
+    .modPpal__nav {
+      font-size: 0.25rem; }
+    .btn {
+      font-size: 0.25rem; }
+    .inline {
+      font-size: 0.85rem; }
+    .googMap {
+      width: 300px;
+      height: 300px; }
+    .carousel-caption {
+      font-size: 0.85rem; }
+    .equipo {
+      width: 8rem;
+      font-size: 0.5rem; }
+    .flexEquipo{
+    display: flex;
+    flex-direction: column;
+    flex:content;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }  
+    .modPpal__tit2 {
+      margin-bottom: 0.05rem; }
+    .imgProyectos{
+    width: 3rem;
+    height: 3rem;
+    }
+    .gridProyectos {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+    .articlegridProyectos p {
+      font-size: 0.7rem; }
+    .parrafosNS {
+      font-size: 0.7rem; }
+      .parrafosNS p {
+        font-size: 0.7rem; }
+    .parrCM {
+      font-size: 0.7rem; }
+    .parraf__Contacto {
+      font-size: 0.7rem; }
+    input {
+      font-size: 0.7rem; }
+    .botonEnviarContacto {
+      font-size: 0.7rem; }
+    .telefono {
+      font-size: 0.7rem; }
+    .email {
+      font-size: 0.7rem; }
+    .contacto div {
+      width: 160px; } }
+  
+  
+

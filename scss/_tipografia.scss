@@ -1,0 +1,92 @@
+html{
+    font-size: 62,5%;
+
+    body{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+
+        h1 {
+            font-size:4rem;
+            font-weight: bolder;
+        }
+          
+        h2 {
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        
+        h3 {
+            font-size: 1.1rem; ;
+        }
+
+        h5, a {
+               line-height: 1.2;
+            }
+              
+        h6 {
+            text-align: center;
+            font-weight: bold;
+            }
+        p {
+          line-height: 1.6;
+            }
+    
+        ul{
+            list-style: none;
+            }
+        .carousel-caption p,h5{
+            text-align: center;
+            }
+        .carousel-caption h5{
+            font-weight: bolder;
+            font-size: 3rem;
+            }
+
+    }
+}
+
+.modPpal__tit2--proys{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.modPpal__tit3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.modPpal__tit4{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.modPpal__nav {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.modPpal__nav--mod {
+    margin-top: 5px;
+}
+
+.modPpal__nav:hover{
+    text-decoration-line: underline;
+    font-weight:bold;
+}
+
+
+// Como Trabajamos
+
+.modPpal__tit3--CM{
+    font-size: 1rem;
+}
+
+//Contacto
+
+
+.parraf__Contacto:before{
+    font-size:14px;
+}

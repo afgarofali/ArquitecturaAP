@@ -1,0 +1,225 @@
+// Home
+
+html{
+    
+    body{
+
+
+        .modPpal__tit1{
+            display: inline-block;
+            margin-left: 1rem;
+        }
+
+        h1,h2,h3,h4,h6{
+            margin-left: 1rem;
+          }
+        .d-block--tam{
+        height: 50rem;
+        }
+    }
+}
+
+.modPpal__nav {
+    margin-right: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+  
+
+.header{
+    background-image: url(../img/background-home.png);
+  
+}
+
+.header__pags{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 15px;
+    padding-bottom: 20px;  }
+
+.header__pags--index{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.googMap {
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionMap{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modPpal__tit4{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    }
+
+.modPpal__tit2{
+    padding-top: 5px;
+}
+
+.button--mod{
+    margin-top: 10px;
+}
+
+// Proyectos
+
+.imgProyectos{
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .gridProyectos {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  h3{
+    text-align: center;
+  }
+  
+  .articlegridProyectos:hover {
+  
+    transform: scale(1.28);
+    padding: 2.1rem;
+    margin-bottom: 2rem;
+    transition: 0.2s;
+  }
+    
+
+//   Equipo
+
+.flexEquipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(119,120,121,0.01162471824667366) 12%, rgba(195,197,200,1) 74%);
+
+    .flexArtEquipo{
+        padding-left: 3rem;
+
+        p{
+            font-weight: bold;
+            text-align: justify;
+          }
+      }
+
+    .equipo{
+    align-items: center;
+    display:block;
+    width: 20rem;
+    margin:auto;
+    margin-bottom: 1rem;
+    }
+  }
+
+.header__pags--equipo{
+    margin-bottom: -49px;
+}
+    
+
+// Como trabajamos
+
+.columnasNS{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    column-gap: 2rem;
+    text-align: justify;
+  }
+  
+  .parrafosNS{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+    
+  .parrCM{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .modPpal__tit3--CM{
+    margin-top: 10px;
+}
+
+//Contacto
+
+.form__Contacto{
+    width:340px;
+    height:480px;
+    border-radius:8px;
+    margin:calc(50vh - 350px) auto;
+    padding:10px 30px;max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    position:relative;
+  }
+
+
+  .modPpal__tit4--Contacto{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+}
+   
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition:all .3s;
+  }
+  
+.parraf__Contacto:before{
+content:attr(type);
+display:block;
+margin:28px 0 0;
+} 
+
+ 
+.botonEnviarContacto{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    cursor:pointer;
+    transition:all .3s;
+    border-radius:8px;
+}
+
+.contacto div{
+    position:absolute;
+    bottom:-40px;
+    right:-20px;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;font-size:13px;
+  }
+
+span{
+    margin:0 5px 0 15px
+}
+
