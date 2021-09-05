@@ -163,7 +163,17 @@
       font-size: 0.99rem; }
     .modPpal__tit6 {
       font-size: 0.9rem; }
+    .header__pags{
+      background-color: red;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      order: 1;
+      justify-content: flex-end;
+      align-items: center;
+    }
     .modPpal__nav {
+      flex: 1 1 50%;
       font-size: 0.81rem; }
     .btn {
       font-size: 0.81rem; }
