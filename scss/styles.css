@@ -24,7 +24,7 @@ html body .d-block--tam { height: 50rem; }
 
 .modPpal__tit6 { margin-top: 0.5rem; }
 
-.imgProyectos { width: 20rem; height: 20rem; }
+.imgProyectos { width: 20rem; height: 20rem; margin-top: 0.7rem; }
 
 .gridProyectos { display: grid; grid-template-columns: repeat(5, 1fr); margin-left: 2rem; margin-right: 2rem; }
 
@@ -34,18 +34,18 @@ h3 { text-align: center; }
 
 .modPpal__tit3--ofic { padding-top: 1rem; }
 
-.flexEquipo { display: flex; flex-direction: row; justify-content: center; background: radial-gradient(circle, rgba(119, 120, 121, 0.0116247182) 12%, #c3c5c8 74%); }
-.flexEquipo .flexArtEquipo { padding-left: 3rem; }
+.flexEquipo { display: flex; flex-direction: row; justify-content: center; background: radial-gradient(circle, rgba(119, 120, 121, 0.0116247182) 70%, #c3c5c8 88%); }
+.flexEquipo .flexArtEquipo { padding-right: 3rem; }
 .flexEquipo .flexArtEquipo p { font-weight: bold; text-align: justify; }
 .flexEquipo .equipo { align-items: center; display: block; width: 20rem; margin: auto; margin-bottom: 1rem; }
 
 .header__pags--equipo { margin-bottom: -49px; }
 
-.columnasNS { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; column-gap: 2rem; text-align: justify; }
+.card { padding-left: 1rem; padding-right: 1rem; margin-right: 1rem; margin-left: 1rem; align-items: center; }
 
-.parrafosNS { padding-top: 1rem; padding-right: 1rem; padding-left: 1rem; margin-left: 1rem; margin-right: 1rem; }
+.parrafosNS { margin: auto 1rem 1.5rem 1rem; padding: auto 1rem auto 1rem; }
 
-.parrCM { padding-left: 3rem; padding-right: 3rem; margin-right: 8rem; margin-left: 8rem; text-align: center; align-items: center; }
+.parrCM { padding-right: 8rem; padding-left: 8rem; align-items: center; justify-content: center; text-align: center; }
 
 .modPpal__tit3--CM { margin-top: 10px; }
 
@@ -76,6 +76,8 @@ html body .carousel-caption p, html body h5 { color: white; }
 .modPpal__tit4 { background-color: rgba(105, 105, 105, 0.158); }
 
 .carousel { background-color: rgba(95, 95, 95, 0.137); }
+
+.card { background-color: rgba(0, 0, 0, 0.019); }
 
 .form__Contacto { background: #e6e6e6; box-shadow: 0 0 40px -10px black; }
 
@@ -118,6 +120,8 @@ html body .carousel-caption h5 { font-weight: bolder; font-size: 3rem; }
 .modPpal__nav:hover { text-decoration-line: underline; font-weight: bold; }
 
 .modPpal__tit3--CM { font-size: 1rem; }
+
+.card-text { text-align: justify; }
 
 .parraf__Contacto:before { font-size: 14px; }
 
