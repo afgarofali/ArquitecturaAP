@@ -80,31 +80,59 @@ html{
 
 // Proyectos
 
-.imgProyectos{
-    width: 20rem;
-    height: 20rem;
-    margin-top: 0.7rem;
-  }
-  
-  .gridProyectos {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-  
+
+.gridProyectos{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.profile {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+  margin: 3rem auto 3rem auto;
+}
+
+.image{
+  border-radius: 10px
+}
+
+.image {
+  position: absolute;
+  transition: all 0.5s;
+  z-index: 100
+}
+
+.profile:hover .image {
+  transform: translate(-50px, -50px)
+}
+
+.profile .content {
+  position: absolute;
+  bottom: 100px;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 19px;
+  transition: all 0.5s;
+  transition-delay: 0.5s
+}
+
+.profile:hover .content {
+  bottom: 8px
+}
+
   h3{
     text-align: center;
   }
-  
-  .articlegridProyectos:hover {
-  
-    transform: scale(1.28);
-    padding: 2.1rem;
-    margin-bottom: 2rem;
-    transition: 0.2s;
-  }
-    
 
   .modPpal__tit3--ofic{
     padding-top: 1rem;
@@ -117,6 +145,7 @@ html{
     flex-direction: row;
     justify-content: center;
     background: radial-gradient(circle, rgba(119,120,121,0.01162471824667366) 70%, rgba(195,197,200,1) 88%);
+    margin-bottom: 0.5rem;
 
     .flexArtEquipo{
         padding-right: 3rem;
@@ -217,7 +246,7 @@ margin:28px 0 0;
     border-radius:8px;
 }
 
-.contacto div{
+.datosContacto{
     position:absolute;
     bottom:-40px;
     right:-20px;

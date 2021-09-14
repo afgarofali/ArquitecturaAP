@@ -24,12 +24,22 @@ html{
         }
 }
 
+
 .modPpal__nav:hover{
     color: rgb(41, 104, 98);
 }
 
 .modPpal__tit4{
 background-color: rgba(105, 105, 105, 0.158);
+}
+
+.btn-dark{
+    background-color: rgb(109, 118, 126);
+    border-color: rgb(108, 117, 125);
+}
+
+.footer{
+    font-weight: bold;
 }
 
 //Como trabajamos
@@ -79,10 +89,15 @@ border-bottom:2px solid rgb(120, 120, 140);
     color:rgb(255, 255, 255)
 } 
 
-.contacto div{
+.datosContacto{
     background:rgb(80, 80, 90);
     color:rgb(255, 255, 255);
     box-shadow:10px 10px 40px -14px rgb(0, 0, 0)
 }
   
-  
+//Proyectos
+
+.profile {
+    background-color: #fff;
+    }
+    

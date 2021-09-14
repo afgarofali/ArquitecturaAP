@@ -1,13 +1,16 @@
 
-// Proporciones
-// 1600 1
-// 1000 0.5
+//Proporciones
+//1600 1
+//1000 0.5
 //700 0.5
 //550 0.5
 //380 0.5
 
 
 @media (max-width: 2000px ){
+  .btn__menu{
+    display: none;
+  }
 
     html body .d-block--tam{
     height: 35rem;
@@ -25,7 +28,12 @@
 
 }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1135px) {
+
+    .navHamb{
+      display: none;
+    }
+
     .modPpal__tit1 {
       font-size: 2.7rem; }
     .modPpal__tit2 {
@@ -61,14 +69,15 @@
       font-size: 0.9rem; }
     .modPpal__tit2 {
       margin-bottom: 0.09rem; }
-    .imgProyectos {
-      width: 13rem;
-      height: 13rem; }
-    .gridProyectos {
+    .gridProyectos{
       display: grid;
-      grid-template-columns: repeat(3, 1fr); }
-    .articlegridProyectos p {
-      font-size: 1rem; }
+      grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+      align-items: stretch;
+      align-content: space-between;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
     .parrafosNS {
       font-size: 1rem; }
       .parrafosNS p {
@@ -82,13 +91,38 @@
     .botonEnviarContacto {
       font-size: 1rem; }
     .telefono {
-      font-size: 1rem; }
+      font-size: 0.9rem; }
     .email {
-      font-size: 1rem; }
-    .contacto div {
-      width: 320px; } }
+      font-size: 0.9rem; }
+    .datosContacto{
+      position:absolute;
+      bottom:-40px;
+      right:-20px;
+      width: 250px;
+      padding:16px 4px 16px 0;
+      border-radius:6px;font-size:13px;
+    }
+}
   
-  @media (max-width: 700px) {
+  @media (max-width: 760px) {
+
+    .modPpal__nav{
+      display: none;
+    }
+
+    .btn__menu{
+      display: initial;
+    }
+
+    .modPpal__nav--hamb{
+      display: initial;
+    }
+
+    .btn{
+      font-size: 0.85rem!important;
+    }
+
+ 
     .modPpal__tit1 {
       font-size: 2.25rem; }
     .modPpal__tit2 {
@@ -131,14 +165,15 @@
       font-size: 0.75rem; }
     .modPpal__tit2 {
       margin-bottom: 0.075rem; }
-    .imgProyectos {
-      width: 11rem;
-      height: 11rem; }
-    .gridProyectos {
+    .gridProyectos{
       display: grid;
-      grid-template-columns: repeat(3, 1fr); }
-    .articlegridProyectos p {
-      font-size: 1.05rem; }
+      grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+      align-items: stretch;
+      align-content: space-between;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
     .parrafosNS {
       font-size: 1.05rem; }
       .parrafosNS p {
@@ -158,7 +193,7 @@
       font-size: 0.9rem; }
     .email {
       font-size: 0.8rem; }
-    .contacto div {
+    .datosContacto {
       width: 200px;
       position: relative;
       bottom: 0px;
@@ -178,6 +213,11 @@
 }
   
   @media (max-width: 550px) {
+
+    .btn{
+      font-size: 0.8rem!important;
+    }
+
     .modPpal__tit1 {
       font-size: 1.8rem; }
     .modPpal__tit2 {
@@ -216,17 +256,15 @@
     }
     .modPpal__tit2 {
       margin-bottom: 0.4rem; }
-    .imgProyectos{
-    width: 10rem;
-    height: 10rem;
+    .gridProyectos{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+      align-items: stretch;
+      align-content: space-between;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
-    .gridProyectos {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-content: center;
-    }
-    .articlegridProyectos p {
-      font-size: 0.84rem; }
     .parrafosNS {
       font-size: 0.84rem; }
     .columnasNS{
@@ -254,7 +292,7 @@
       font-size: 0.84rem; }
     .email {
       font-size: 0.7rem; }
-    .contacto div {
+    .datosContacto {
       width: 170px;
       position: relative;
       bottom: 0px;
@@ -305,17 +343,15 @@
     }
     .modPpal__tit2 {
       margin-bottom: 0.05rem; }
-    .imgProyectos{
-    margin: 0 0 1rem 2.5rem;
-    width: 11rem;
-    height: 11rem;
+    .gridProyectos{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+      align-items: stretch;
+      align-content: space-between;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
-    .gridProyectos {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    }
-    .articlegridProyectos p {
-      font-size: 0.7rem; }
     .parrafosNS {
       font-size: 0.7rem; }
     .parrafosNS p {
@@ -347,7 +383,7 @@
       font-size: 0.7rem; }
     .email {
       font-size: 0.7rem; }
-    .contacto div {
+    .datosContacto {
       width: 170px;
       position: relative;
       bottom: 0px;
