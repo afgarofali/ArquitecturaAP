@@ -28,6 +28,14 @@
 
 }
 
+@media (max-width: 1400px) {
+
+  .gridEquipo .equipo{
+    width: 15rem;
+    }
+}
+
+
   @media (max-width: 1135px) {
 
     .navHamb{
@@ -61,12 +69,11 @@
       }
     .carousel-caption {
       font-size: 1.53rem; }
-    .flexEquipo {
-      padding-left: 2.34rem;
-      padding-right: 2.34rem; }
-    .equipo {
-      width: 15.3rem;
-      font-size: 0.9rem; }
+
+    .gridEquipo .equipo{
+       width: 12rem;
+      font-size: 0.9rem;
+          }
     .modPpal__tit2 {
       margin-bottom: 0.09rem; }
     .gridProyectos{
@@ -103,7 +110,18 @@
       border-radius:6px;font-size:13px;
     }
 }
-  
+
+  @media (max-width: 810px) {
+    .gridEquipo {
+      grid-template-columns: repeat(2,2fr);
+            
+      .equipo{
+        width: 16rem;
+        font-size: 0.9rem;
+        }
+      }
+}
+
   @media (max-width: 760px) {
 
     .modPpal__nav{
@@ -157,12 +175,7 @@
       }
     .carousel-caption {
       font-size: 1.275rem; }
-    .flexEquipo {
-      padding-left: 1.95rem;
-      padding-right: 1.95rem; }
-    .equipo {
-      width: 12.75rem;
-      font-size: 0.75rem; }
+
     .modPpal__tit2 {
       margin-bottom: 0.075rem; }
     .gridProyectos{
@@ -244,9 +257,14 @@
       }
     .carousel-caption {
       font-size: 1.02rem; }
-    .equipo {
-      width: 11rem;
-      font-size: 0.8rem; }
+    .gridEquipo {
+      grid-template-columns: repeat(1,4fr);
+            
+      .equipo{
+        width: 12rem;
+        font-size: 1rem;
+        }
+      }
     .flexEquipo{
     display: flex;
     flex-direction: column;
@@ -364,23 +382,26 @@
       margin-left: 0rem;
       font-size: 0.7rem;
       padding: 0px 3rem 0px 3rem }
+    .modPpal__tit4--Contacto{
+      font-size: 1.2rem;
+    }
     .form__Contacto{
       width:340px;
-      height:430px;
+      height:480px;
       margin:calc(50vh - 320px) auto; }
     .parraf__Contacto {
-      font-size: 0.7rem; }
+      font-size: 0.9rem; }
     input {
-      font-size: 0.7rem; }
+      font-size: 0.9rem; }
     .botonEnviarContacto {
-      padding-right: 17px;
-      padding-top: 23px;
+      padding-right: 13px;
+      padding-top: 15px;
       padding-bottom: 23px;
-      padding-left: 17px;
+      padding-left: 15px;
       margin-top: 0px;
-      font-size: 0.7rem; }
+      font-size: 0.9rem; }
     .telefono {
-      font-size: 0.7rem; }
+      font-size: 1rem; }
     .email {
       font-size: 0.7rem; }
     .datosContacto {

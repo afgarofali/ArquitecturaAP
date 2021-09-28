@@ -140,23 +140,20 @@ html{
 
 //   Equipo
 
-.flexEquipo{
-    display: flex;
-    flex-direction: row;
+.gridEquipo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
+    align-items: center;
+    align-content: space-between;
     background: radial-gradient(circle, rgba(119,120,121,0.01162471824667366) 70%, rgba(195,197,200,1) 88%);
     margin-bottom: 0.5rem;
 
-    .flexArtEquipo{
-        padding-right: 3rem;
-        
-
-        p{
-            font-weight: bold;
-            text-align: justify;
-          }
-      }
-
+    p{
+    font-weight: bold;
+    text-align: justify;
+    }
+    
     .equipo{
     align-items: center;
     display:block;
@@ -165,7 +162,15 @@ html{
     margin-bottom: 1rem;
     border-radius: 50%;
     }
+
 }
+.equipo:hover {
+
+  filter: brightness(85%)
+   saturate(170%); 
+}
+
+
 
 .header__pags--equipo{
     margin-bottom: -49px;

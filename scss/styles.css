@@ -1,6 +1,46 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 * { margin: 0; padding: 0; }
 
+html body { background-color: rgba(255, 255, 255, 0.596); }
+html body h1 { color: #666868; }
+html body h2, html body h3, html body h4 { color: #3c4488; }
+html body h5, html body a { color: #494e7a; }
+html body p { color: #1d2d38; }
+html body em { color: #1d4d69; }
+html body .carousel-caption p, html body h5 { color: white; }
+
+.bodyGral { background-color: rgba(156, 156, 156, 0.315); }
+
+.modPpal__nav:hover { color: #296862; }
+
+.modPpal__tit4 { background-color: rgba(105, 105, 105, 0.158); }
+
+.btn-dark { background-color: #6d767e; border-color: #6c757d; }
+
+.footer { font-weight: bold; }
+
+.carousel { background-color: rgba(95, 95, 95, 0.137); }
+
+.card { background-color: rgba(0, 0, 0, 0.019); }
+
+.form__Contacto { background: #e6e6e6; box-shadow: 0 0 40px -10px black; }
+
+.modPpal__tit4--Contacto { color: #78788c; border-bottom: 3px solid #78788c; background-color: #e6e6e6; }
+
+input { border-bottom: 2px solid #bebed2; }
+
+input:focus { border-bottom: 2px solid #78788c; }
+
+.parraf__Contacto:before { color: #5a5a5a; }
+
+.botonEnviarContacto { border: 2px solid #78788c; background: 0; color: #5a5a6e; }
+
+.botonEnviarContacto:hover { background: #78788c; color: white; }
+
+.datosContacto { background: #50505a; color: white; box-shadow: 10px 10px 40px -14px black; }
+
+.profile { background-color: #fff; }
+
 html body .modPpal__tit1 { display: inline-block; margin-left: 1rem; }
 html body h1, html body h2, html body h3, html body h4, html body h6 { margin-left: 1rem; }
 html body .d-block--tam { height: 50rem; }
@@ -43,10 +83,11 @@ h3 { text-align: center; }
 
 .modPpal__tit3--ofic { padding-top: 1rem; }
 
-.flexEquipo { display: flex; flex-direction: row; justify-content: center; background: radial-gradient(circle, rgba(119, 120, 121, 0.0116247182) 70%, #c3c5c8 88%); margin-bottom: 0.5rem; }
-.flexEquipo .flexArtEquipo { padding-right: 3rem; }
-.flexEquipo .flexArtEquipo p { font-weight: bold; text-align: justify; }
-.flexEquipo .equipo { align-items: center; display: block; width: 20rem; margin: auto; margin-bottom: 1rem; border-radius: 50%; }
+.gridEquipo { display: grid; grid-template-columns: repeat(4, 1fr); justify-content: center; align-items: center; align-content: space-between; background: radial-gradient(circle, rgba(119, 120, 121, 0.0116247182) 70%, #c3c5c8 88%); margin-bottom: 0.5rem; }
+.gridEquipo p { font-weight: bold; text-align: justify; }
+.gridEquipo .equipo { align-items: center; display: block; width: 20rem; margin: auto; margin-bottom: 1rem; border-radius: 50%; }
+
+.equipo:hover { filter: brightness(85%) saturate(170%); }
 
 .header__pags--equipo { margin-bottom: -49px; }
 
@@ -71,44 +112,6 @@ input { width: 100%; padding: 10px; box-sizing: border-box; background: none; ou
 .datosContacto { position: absolute; bottom: -40px; right: -20px; width: 320px; padding: 16px 4px 16px 0; border-radius: 6px; font-size: 13px; }
 
 span { margin: 0 5px 0 15px; }
-
-html body { background-color: rgba(255, 255, 255, 0.596); }
-html body h1 { color: #666868; }
-html body h2, html body h3, html body h4 { color: #3c4488; }
-html body h5, html body a { color: #494e7a; }
-html body p { color: #1d2d38; }
-html body em { color: #1d4d69; }
-html body .carousel-caption p, html body h5 { color: white; }
-
-.modPpal__nav:hover { color: #296862; }
-
-.modPpal__tit4 { background-color: rgba(105, 105, 105, 0.158); }
-
-.btn-dark { background-color: #6d767e; border-color: #6c757d; }
-
-.footer { font-weight: bold; }
-
-.carousel { background-color: rgba(95, 95, 95, 0.137); }
-
-.card { background-color: rgba(0, 0, 0, 0.019); }
-
-.form__Contacto { background: #e6e6e6; box-shadow: 0 0 40px -10px black; }
-
-.modPpal__tit4--Contacto { color: #78788c; border-bottom: 3px solid #78788c; background-color: #e6e6e6; }
-
-input { border-bottom: 2px solid #bebed2; }
-
-input:focus { border-bottom: 2px solid #78788c; }
-
-.parraf__Contacto:before { color: #5a5a5a; }
-
-.botonEnviarContacto { border: 2px solid #78788c; background: 0; color: #5a5a6e; }
-
-.botonEnviarContacto:hover { background: #78788c; color: white; }
-
-.datosContacto { background: #50505a; color: white; box-shadow: 10px 10px 40px -14px black; }
-
-.profile { background-color: #fff; }
 
 html { font-size: 62,5%; }
 html body { font-family: 'Roboto', sans-serif; font-style: normal; }
@@ -140,6 +143,8 @@ html body .carousel-caption h5 { font-weight: bolder; font-size: 3rem; }
 
 .card-text { text-align: justify; }
 
+.card:hover { font-style: italic; }
+
 .ParrafosNS { text-align: justify; }
 
 .parraf__Contacto:before { font-size: 14px; }
@@ -152,6 +157,7 @@ html body .carousel-caption h5 { font-weight: bolder; font-size: 3rem; }
   html body .d-block--tam { height: 35rem; }
   .imgProyectos { width: 20rem; height: 20rem; }
   .gridProyectos { display: grid; grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 1400px) { .gridEquipo .equipo { width: 15rem; } }
 @media (max-width: 1135px) { .navHamb { display: none; }
   .modPpal__tit1 { font-size: 2.7rem; }
   .modPpal__tit2 { font-size: 1.7rem; }
@@ -165,8 +171,7 @@ html body .carousel-caption h5 { font-weight: bolder; font-size: 3rem; }
   .googMap { width: 540px; height: 540px; }
   html body .d-block--tam { height: 25rem; }
   .carousel-caption { font-size: 1.53rem; }
-  .flexEquipo { padding-left: 2.34rem; padding-right: 2.34rem; }
-  .equipo { width: 15.3rem; font-size: 0.9rem; }
+  .gridEquipo .equipo { width: 12rem; font-size: 0.9rem; }
   .modPpal__tit2 { margin-bottom: 0.09rem; }
   .gridProyectos { display: grid; grid-template-columns: repeat(1, 1fr); justify-content: center; align-items: stretch; align-content: space-between; margin-left: 2rem; margin-right: 2rem; }
   .parrafosNS { font-size: 1rem; }
@@ -178,6 +183,8 @@ html body .carousel-caption h5 { font-weight: bolder; font-size: 3rem; }
   .telefono { font-size: 0.9rem; }
   .email { font-size: 0.9rem; }
   .datosContacto { position: absolute; bottom: -40px; right: -20px; width: 250px; padding: 16px 4px 16px 0; border-radius: 6px; font-size: 13px; } }
+@media (max-width: 810px) { .gridEquipo { grid-template-columns: repeat(2, 2fr); }
+  .gridEquipo .equipo { width: 16rem; font-size: 0.9rem; } }
 @media (max-width: 760px) { .modPpal__nav { display: none; }
   .btn__menu { display: initial; }
   .modPpal__nav--hamb { display: initial; }
@@ -195,8 +202,6 @@ html body .carousel-caption h5 { font-weight: bolder; font-size: 3rem; }
   .googMap { width: 450px; height: 450px; }
   html body .d-block--tam { height: 20rem; }
   .carousel-caption { font-size: 1.275rem; }
-  .flexEquipo { padding-left: 1.95rem; padding-right: 1.95rem; }
-  .equipo { width: 12.75rem; font-size: 0.75rem; }
   .modPpal__tit2 { margin-bottom: 0.075rem; }
   .gridProyectos { display: grid; grid-template-columns: repeat(1, 1fr); justify-content: center; align-items: stretch; align-content: space-between; margin-left: 2rem; margin-right: 2rem; }
   .parrafosNS { font-size: 1.05rem; }
@@ -223,7 +228,8 @@ html body .carousel-caption h5 { font-weight: bolder; font-size: 3rem; }
   .googMap { width: 360px; height: 360px; }
   html body .d-block--tam { height: 25rem; }
   .carousel-caption { font-size: 1.02rem; }
-  .equipo { width: 11rem; font-size: 0.8rem; }
+  .gridEquipo { grid-template-columns: repeat(1, 4fr); }
+  .gridEquipo .equipo { width: 12rem; font-size: 1rem; }
   .flexEquipo { display: flex; flex-direction: column; justify-content: center; padding-left: 1rem; padding-right: 1rem; }
   .modPpal__tit2 { margin-bottom: 0.4rem; }
   .gridProyectos { display: grid; grid-template-columns: repeat(1, 1fr); justify-content: center; align-items: stretch; align-content: space-between; margin-left: 2rem; margin-right: 2rem; }
@@ -259,11 +265,12 @@ html body .carousel-caption h5 { font-weight: bolder; font-size: 3rem; }
   .parrafosNS p { font-size: 0.7rem; }
   .columnasNS { column-count: 1; }
   .parrCM { margin-right: 0rem; margin-left: 0rem; font-size: 0.7rem; padding: 0px 3rem 0px 3rem; }
-  .form__Contacto { width: 340px; height: 430px; margin: calc(50vh - 320px) auto; }
-  .parraf__Contacto { font-size: 0.7rem; }
-  input { font-size: 0.7rem; }
-  .botonEnviarContacto { padding-right: 17px; padding-top: 23px; padding-bottom: 23px; padding-left: 17px; margin-top: 0px; font-size: 0.7rem; }
-  .telefono { font-size: 0.7rem; }
+  .modPpal__tit4--Contacto { font-size: 1.2rem; }
+  .form__Contacto { width: 340px; height: 480px; margin: calc(50vh - 320px) auto; }
+  .parraf__Contacto { font-size: 0.9rem; }
+  input { font-size: 0.9rem; }
+  .botonEnviarContacto { padding-right: 13px; padding-top: 15px; padding-bottom: 23px; padding-left: 15px; margin-top: 0px; font-size: 0.9rem; }
+  .telefono { font-size: 1rem; }
   .email { font-size: 0.7rem; }
   .datosContacto { width: 170px; position: relative; bottom: 0px; right: 0px; } }
 
